@@ -1,0 +1,76 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Introduction Section */
+.introduction {
+    padding: 2rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
